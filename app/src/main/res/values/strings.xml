@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Tasheeh</string>
+
+    <string-array name="spinner_go">
+        <item>-select surah-</item>
+        <item>1 Surat-ul-Fateha </item>
+        <item>2 Surat-ul-Baqara </item>
+        <item>3 Surat Aal-e-Imran</item>
+        <item>4 Surat-un-Nissa</item>
+        <item>5 Surat-ul-Maeeda </item>
+        <item>6 Surat-ul-Anaam</item>
+        <item>7 Surat-ul-Aeyraaf</item>
+        <item>8 Surat-ul-Anfaal</item>
+        <item>9 Surat-ul-Tauba</item>
+        <item>10 Surah Younus</item>
+        <item>11 Surah Hood</item>
+        <item>12 Surah Yousuf</item>
+        <item>13 Surat-ul-Raad</item>
+        <item>14 Surah Ibrahim</item>
+        <item>15 Surat-ul-Hijir</item>
+        <item>16 Surat-un-Nahal</item>
+        <item>17 Surah Bani Israel</item>
+        <item>18 Surat-ul-Kahf</item>
+        <item>19 Surah Marium</item>
+        <item>20 Surah Taha</item>
+        <item>21 Surat-ul-Anbiya</item>
+        <item>22 Surat-ul-Hajj</item>
+        <item>23 Surat-ul-Mominoon</item>
+        <item>24 Surat-un-Noor</item>
+        <item>25 Surat-ul-Furqan</item>
+        <item>26 Surat-us-Shooraa</item>
+        <item>27 Surat-un-Namal</item>
+        <item>28 Surat-ul-Qasas</item>
+        <item>29 Surat-ul-Ankaboot</item>
+        <item>30 Surat-ur-Room</item>
+        <item>31 Surah Luqman</item>
+        <item>32 Surat-ul-Sajdah</item>
+        <item>33 Surat-ul-Ahzaab</item>
+        <item>34 Surah Saba</item>
+        <item>35 Surah Faatir</item>
+        <item>36 Surah Yaseen</item>
+        <item>37 Surat-us-Saaffat</item>
+        <item>38 Surah Suaad</item>
+        <item>39 Surat-uz-Zumar</item>
+        <item>40 Surat-ul-Momin</item>
+        <item>41 Surat Ha-meem-Assajdah</item>
+        <item>42 Surat-us-Shoora</item>
+        <item>43 Surat-uz-Zukhruf</item>
+        <item>44 Surat-ud-Dukhaan</item>
+        <item>45 Surat-ul-Jasiya</item>
+        <item>46 Surat-u-Ehkaaf</item>
+        <item>47 Surah Muhammaad</item>
+        <item>48 Surat-ul-Fatah</item>
+        <item>49 Surat-ul-Hujraat</item>
+        <item>50 Surat Qaaf</item>
+        <item>51 Surat-uz-Zaariyaat</item>
+        <item>52 Surat-ut-Toor</item>
+        <item>53 Surat-un-Najam</item>
+        <item>54 Surat-ul-Qamar</item>
+        <item>55 Surat-ur-Rehmaan</item>
+        <item>56 Surat-ul-Waqiya</item>
+        <item>57 Surat-uk-Hadeed</item>
+        <item>58 Surat-ul-Mujadala</item>
+        <item>59 Surat-ul-Hashar</item>
+        <item>60 Surat-ul-Mumtahina</item>
+        <item>61 Surat-us-Saff</item>
+        <item>62 Surat-ul-Jumaa</item>
+        <item>63 Surat-ul-Munafiqoon</item>
+        <item>64 Suraht-ut-Taghabun</item>
+        <item>65 Surat-ut-Tallaq</item>
+        <item>66 Surat-ut-Tehreem</item>
+        <item>67 Surat-ul-Mulk</item>
+        <item>68 Surat-ul-Qalam</item>
+        <item>69 Surat-ul-Haaqqa</item>
+        <item>70 Surat-ul-Maarij</item>
+        <item>71 Surah Nooh</item>
+        <item>72 Surat-ul-Jinnn</item>
+        <item>73 Surat-ul-Muzammil</item>
+        <item>74 Surat-ul-Mudassir</item>
+        <item>75 Surat-ul-Qiyama</item>
+        <item>76 Surat-ud-Dahar</item>
+        <item>77 Surat-ul-Mursilaat</item>
+        <item>78 Surat-un-Naba</item>
+        <item>79 Surat-un-Naziaat</item>
+        <item>80 Surah Abas</item>
+        <item>81 Surat-ut-Takveer</item>
+        <item>82 Surat-ul-Infitaar</item>
+        <item>83 Surat-ul-Mutafifeen</item>
+        <item>84 Surat-ul-Inshiqaaq</item>
+        <item>85 Surat-ul-Burooj</item>
+        <item>86 Surat-ut-Tariq</item>
+        <item>87 Surat-ul-Aala</item>
+        <item>88 Surat-ul-Ghashiya</item>
+        <item>89 Surat-ul-Fajar</item>
+        <item>90 Surat-ul-Balad</item>
+        <item>91 Surat-us-Shams</item>
+        <item>92 Surt-ul-Lail</item>
+        <item>93 Surat-uz-Dhuha</item>
+        <item>94 Surat-us-Sharah</item>
+        <item>95 Surat-ut-Teen</item>
+        <item>96 Surat-ul-Alaq</item>
+        <item>97 Surat-ul-Qadar</item>
+        <item>98 Surat-ul-Bayyina</item>
+        <item>99 Surat-ul-Zilzaal</item>
+        <item>100 Surat-ul-Aadiyaat</item>
+        <item>101 Surat-ul-Qariya</item>
+        <item>102 Surat-ut-Takasur</item>
+        <item>103 Surat-ul-Asar</item>
+        <item>104 Surat-ul-Humaza</item>
+        <item>105 Surat-ul-Feel</item>
+        <item>106 Surat-ul-Quraish</item>
+        <item>107 Surat-ul-Maoon</item>
+        <item>108 Surat-ul-Kausar</item>
+        <item>109 Surat-ul-Kafiroon</item>
+        <item>110 Surat-un-Nasar</item>
+        <item>111 Surat-ul-Tabbatt</item>
+        <item>112 Surat-ul-Ikhlaas</item>
+        <item>113 Surat-ul-Falaq</item>
+        <item>114 Surat-un-Naas</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color"
+    android:orientation="vertical"
+    tools:context=".text">
+
+    <TextView
+        android:id="@+id/display_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="35dp"
+        android:textSize="35dp"
+        android:text="Enter your Ayah"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editInput"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:layout_centerInParent="true"
+            android:inputType="textMultiLine|textAutoComplete"
+            android:hint="Enter Your Text Here"
+            android:padding="15dp"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:theme="@style/myButtonTheme"
+            android:textColor="#000000"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:paddingBottom="25dp"
+            android:paddingTop="25dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:text="Verify" />
+
+    </LinearLayout>
+</LinearLayout>
