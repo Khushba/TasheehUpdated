@@ -3,7 +3,9 @@
     package="com.example.android.tasheeh">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+<uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,12 +21,17 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data
+                android:name="com.google.android.gms.vision.DEPENDENCIES"
+                android:value="ocr" />
         </activity>
         <activity android:name=".options" />
-        <activity android:name=".upload" />
         <activity android:name=".text" />
         <activity android:name=".authentic" />
         <activity android:name=".reference"/>
+        <activity android:name=".Gallery"/>
+        <activity android:name=".CameraT"/>
+        <activity android:name=".VerifyByExtractedText"/>
         <activity android:name=".inauthentic" />
         <activity android:name=".VerifyByText" />
         <activity android:name=".FetchingData" />

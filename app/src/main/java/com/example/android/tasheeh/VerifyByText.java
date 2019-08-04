@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -22,11 +23,14 @@ import java.util.regex.Pattern;
 public class VerifyByText extends AppCompatActivity implements Serializable {
 
     String ayah;
+    String stringEX = "";
     String keys;
     EditText ayahtext;
+    EditText ayahtext1;
     EditText keywords;
     Button button;
     ArrayList<String> listOfWords;
+    EditText Extract;
 
     boolean flag = true;
 
@@ -36,19 +40,22 @@ public class VerifyByText extends AppCompatActivity implements Serializable {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_verify_by_text);
 
-
-        ayahtext = (EditText) findViewById(R.id.editInput);
+        ayahtext= (EditText) findViewById(R.id.editInput);
         keywords = (EditText) findViewById(R.id.editInput2);
         button = (Button) findViewById(R.id.button1);
 
+
+
         String strings = (String) getIntent().getSerializableExtra("string");
         ayahtext.setText(strings);
+
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                ayah = ayahtext.getText().toString();
+             ayah=ayahtext.getText().toString();
+                ayah=ayahtext1.getText().toString();
                 keys = keywords.getText().toString();
 
                 listOfWords = getWords(keys);

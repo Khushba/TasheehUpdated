@@ -9,11 +9,12 @@
 
     <TextView
         android:id="@+id/display_text_view"
+        android:text="Choose Your Way"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="35dp"
-        android:text="Enter your Ayah"
+        android:layout_marginTop="15dp"
         android:textSize="35dp"
         android:textStyle="bold"
         android:textColor="@color/colorPrimaryDark"/>
@@ -51,12 +52,13 @@
                 android:layout_height="65dp"
                 android:layout_margin="15dp"
                 android:background="@drawable/gallery"
+                android:id="@+id/gallery"
             />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Upload an image" />
+                android:text="Upload An Image" />
 
         </LinearLayout>
 
@@ -132,12 +134,13 @@
                 android:layout_width="55dp"
                 android:layout_height="55dp"
                 android:layout_margin="20dp"
-                android:background="@drawable/scan" />
+                android:background="@drawable/scan"
+                android:id="@+id/camera"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Upload Image" />
+                android:text="Take A Picture" />
 
         </LinearLayout>
     </LinearLayout>
